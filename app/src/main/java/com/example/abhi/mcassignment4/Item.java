@@ -1,10 +1,12 @@
 package com.example.abhi.mcassignment4;
 
+import java.io.Serializable;
+
 /**
  * Created by Abhi on 01-11-2016.
  */
 
-class Item {
+class Item implements Serializable{
     private String title;
     private String details;
 
